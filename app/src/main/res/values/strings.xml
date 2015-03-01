@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Multi Converter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_weightconverter">weightconverter</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_tempconverter">tempconverter</string>
+    <string name="title_activity_abc">abc</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_tempkelvin">tempkelvin</string>
+    <string name="title_activity_temptype">temptype</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rajat.multiconverter" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Distanceconverter"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".weightconverter"
+            android:label="@string/title_activity_weightconverter" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".tempconverter"
+            android:label="@string/title_activity_tempconverter" >
+        </activity>
+        <activity
+            android:name=".abc"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_abc"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name=".tempkelvin"
+            android:label="@string/title_activity_tempkelvin" >
+        </activity>
+        <activity
+            android:name=".temptype"
+            android:label="@string/title_activity_temptype" >
+        </activity>
+    </application>
+
+</manifest>
